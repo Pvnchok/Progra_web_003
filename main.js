@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   rules: {
 
-   // Reglas para el campo correo electrónico
+   // Reglas para el correo electrónico
 
    email: {
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
 
    },
 
-   // Reglas para el campo contraseña
+   // Reglas para la contraseña
 
    password: {
 
