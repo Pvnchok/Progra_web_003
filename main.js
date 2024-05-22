@@ -21,7 +21,7 @@ $(document).ready(function() {
     required: true,
 
     email: true
-
+// el correo debe tener almenos @
    },
 
    // Reglas para la contraseña
@@ -31,11 +31,15 @@ $(document).ready(function() {
     required: true,
 
     minlength: 10
-
+// la contraseña debe tener al menos 10 caracteres
    }
 
   },
 
+
+
+ // Aqui ponemos el mensaje de error que queremos que muestre
+  
   messages: {
 
    email: "Por favor, ingresa un correo electrónico válido",
